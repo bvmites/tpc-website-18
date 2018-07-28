@@ -3,6 +3,7 @@ body {
     font-family: 'Lato', Arial, sans-serif;
     color: #6b6b6b;
     font-size: 17px;
+    font-weight: bold;
     line-height: 1.6;
 }
 
@@ -40,6 +41,15 @@ body {
     -o-animation: zoom 30s ease 0s normal both infinite;
 }
 
+    .modal-btn, .modal-btn:active {
+    background: #ff8e43;
+    border: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.modal-btn:hover {
+    background: #f27430;
+}
 .heading {
     font-size: 38px;
     text-transform: uppercase;
@@ -92,8 +102,8 @@ body {
 }
 
 .company {
-    background: #fff34c;
-    color: #757575;
+    background: #43ff8e;
+    color: #656565;
     box-shadow: 0 5px 10px rgba(70,70,70,0.8);
     -webkit-box-shadow: 0 -5px 10px rgba(70,70,70,0.8);
 }
@@ -101,6 +111,47 @@ body {
 .company .row {
     margin-top: 10px;
 }
+
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+
+    padding: 100px 50px;
+    margin-top: 0px;
+}
+
+.footer-distributed .footer-left p{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.footer-distributed .footer-right{
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+}
+
 @keyframes zoom {
     0% {
         transform: scale(1, 1);
@@ -132,5 +183,22 @@ body {
 @media screen and (min-width: 320px) and (max-width: 1225px) {
     .company-img {
         display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        text-align: center;
+    }
+
+    .footer-distributed .footer-right{
+        float: none;
+        margin: 0 auto 10px;
+    }
+
+    .footer-distributed .footer-left p.footer-links{
+        line-height: 1.8;
     }
 }
