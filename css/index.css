@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #6b6b6b;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/*TODO toggler color*/
+/*TODO add modal head & foot color*/
+/*TODO change modal button styles*/
+
+.navbar-logo {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar {
+    transition: all 0.2s ease-out;
+}
+
+.nav-link, .navbar-toggler-icon{
+    color: white;
+}
+.navbar-scroll {
+    background: #343a40;
+    color: white;
+}
+
+.carousel {
+    box-shadow: 0 5px 5px #555555;
+}
+.carousel img{
+    height:800px;
+    width: 100%;
+    animation: zoom 30s ease 0s normal both infinite;
+    -webkit-animation: zoom 30s ease 0s normal both infinite;
+    -moz-animation: zoom 30s ease 0s normal both infinite;
+    -ms-animation: zoom 30s ease 0s normal both infinite;
+    -o-animation: zoom 30s ease 0s normal both infinite;
+}
+
+.heading {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+.princi-msg, .princi-msg .modal-body{
+    background: #e6dda7;
+}
+
+.princi-msg .msg-photo img{
+    box-shadow: -10px 10px 10px #777777;
+}
+
+.container-fluid {
+    padding: 30px;
+}
+.msg, .heading {
+    max-width: 800px;
+}
+
+.chairman-msg {
+    box-shadow: 0 5px 5px rgba(70,70,70,0.8);
+    -webkit-box-shadow: 0 -5px 5px rgba(70,70,70,0.8);
+    background: #e6a7b9;
+    color: white;
+}
+
+.chairman-msg .modal-body {
+    background: #e6a7b9;
+    color: white;
+}
+.chairman-msg .msg-photo img{
+    box-shadow: 10px 10px 10px #555555;
+}
+
+.tpo-message {
+    background: #a7cbe6;
+    box-shadow: 0 5px 10px rgba(70,70,70,0.8);
+    -webkit-box-shadow: 0 -5px 10px rgba(70,70,70,0.8);
+}
+
+.tpo-message .row .col-sm-6:first-child {
+    border-right: 5px solid #777777;
+}
+
+.tpo-message .msg-photo img{
+    box-shadow: 0 0 10px 10px #777777;
+}
+
+.company {
+    background: #a7e6c2;
+    box-shadow: 0 5px 10px rgba(70,70,70,0.8);
+    -webkit-box-shadow: 0 -5px 10px rgba(70,70,70,0.8);
+}
+
+.company .row {
+    margin-top: 10px;
+}
+@keyframes zoom {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .navbar-logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 574px) {
+    .msg-photo {
+        display: none;
+    }
+
+    .tpo-message .row .col-sm-6:first-child {
+        border-right: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1225px) {
+    .company-img {
+        display: none;
+    }
+}
