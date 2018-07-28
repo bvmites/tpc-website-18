@@ -43,26 +43,28 @@ body {
 .heading {
     font-size: 38px;
     text-transform: uppercase;
+    max-width: 1000px;
 }
 .princi-msg, .princi-msg .modal-body{
-    background: #e6dda7;
+    background: #ff4c64;
+    color: white;
 }
 
 .princi-msg .msg-photo img{
-    box-shadow: -10px 10px 10px #777777;
+    box-shadow: -10px 10px 10px #45454545;
 }
 
 .container-fluid {
     padding: 30px;
 }
-.msg, .heading {
-    max-width: 800px;
+.msg {
+    max-width: 1000px;
 }
 
 .chairman-msg {
     box-shadow: 0 5px 5px rgba(70,70,70,0.8);
     -webkit-box-shadow: 0 -5px 5px rgba(70,70,70,0.8);
-    background: #e6a7b9;
+    background: #4c76ff;
     color: white;
 }
 
@@ -71,11 +73,12 @@ body {
     color: white;
 }
 .chairman-msg .msg-photo img{
-    box-shadow: 10px 10px 10px #555555;
+    box-shadow: 10px 10px 10px #45454545;
 }
 
 .tpo-message {
-    background: #a7cbe6;
+    background: #ff9a4c;
+    color: white;
     box-shadow: 0 5px 10px rgba(70,70,70,0.8);
     -webkit-box-shadow: 0 -5px 10px rgba(70,70,70,0.8);
 }
@@ -85,11 +88,12 @@ body {
 }
 
 .tpo-message .msg-photo img{
-    box-shadow: 0 0 10px 10px #777777;
+    box-shadow: 0 0 15px 5px #656565;
 }
 
 .company {
-    background: #a7e6c2;
+    background: #fff34c;
+    color: #757575;
     box-shadow: 0 5px 10px rgba(70,70,70,0.8);
     -webkit-box-shadow: 0 -5px 10px rgba(70,70,70,0.8);
 }
