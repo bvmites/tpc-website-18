@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TPC - Birla Vishvakarma Mahavidyalaya</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/notice.css" rel="stylesheet" type="text/css"  media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="navbar-brand">
+    <img class="navbar-logo" src="img/logo.jpg" alt="">
+    <a href="./index.html"><span>Training And Placement Cell</span></a>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse">
+    <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <a class="nav-item nav-link" href="#">Notice Board</a>
+      <a class="nav-item nav-link" href="#">Placement Records</a>
+      <a class="nav-item nav-link" href="#">Placement Activities</a>
+      <a class="nav-item nav-link" href="#">Important Links</a>
+      <a class="nav-item nav-link" href="#">Team</a>
+      <a class="nav-item nav-link" href="#">Contact Us</a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="notices">
+  <div class="noticeContainer"></div>
+</section>
+
+<!--Footer-->
+
+<footer class="footer-distributed sticky-bottom">
+  <div class="footer-right">
+    <a href="https://www.facebook.com/VishvakarmaBVM/"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com/vishvakarma.magazine/"><i class="fa fa-instagram"></i></a>
+  </div>
+  <div class="footer-left">
+    <h4>BVM Engineering College</h4>
+    <h6>Vallabh Vidyanagar</h6>
+  </div>
+</footer>
+
+<!--NOTICES-->
+<script id="noticeTemplate" type="text/x-handlebars-template">
+  <div class="container-fluid">
+    {{#each notices}}
+    <div class="event-card row mx-auto">
+      {{#if date}}
+      <div class="date col-sm-2 col-xs-2">
+        <div class="day row">
+          <div class="col-sm-12 col-xs-12" align="center">{{date.day}}</div>
+        </div>
+        <div class="month row">
+          <div class="col-sm-12 col-xs-12" align="center">{{date.month}}</div>
+        </div>
+      </div>
+      <div class="description col-sm-10 col-xs-10">
+        <div class="title" align="center"><a href="{{link}}" class="link">{{name}}</a></div>
+        <div class="info" align="center">{{description}}</div>
+      </div>
+      {{else}}
+      <div class="description col-sm-12 col-xs-12">
+        <div class="title" align="center"><a href="{{link}}" class="link">{{name}}</a></div>
+        <div class="info" align="center">{{description}}</div>
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </div>
+</script>
+<script src="js/handlebars-v4.0.11.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="js/notice.js"></script>
+</body>
+</html>

@@ -1,36 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
-body {
-    font-family: 'Lato', Arial, sans-serif;
-    color: #6b6b6b;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 1.6;
-}
-
-/*TODO toggler color*/
-/*TODO add modal head & foot color*/
-/*TODO change modal button styles*/
-
-.navbar-logo {
-    height: 50px;
-    width: 50px;
-}
-
-.navbar {
-    transition: all 0.2s ease-out;
-}
-
-.nav-link, .navbar-toggler-icon{
-    color: white;
-}
-
 .navbar-scroll {
-    background: #343a40;
+    background: #17252A;
     color: white;
 }
 
 .carousel {
-    box-shadow: 0 5px 5px #555555;
+    box-shadow: 0 5px 20px #555555;
 }
 .carousel img{
     height:800px;
@@ -42,14 +16,14 @@ body {
     -o-animation: zoom 30s ease 0s normal both infinite;
 }
 
-    .modal-btn, .modal-btn:active {
-    background: #ff8e43;
+.modal-btn, .modal-btn:active, .modal-btn:link, .modal-btn:visited{
+    background: #E98074;
     border: 0;
     transition: all 0.2s ease-in-out;
 }
 
 .modal-btn:hover {
-    background: #f27430;
+    background: #E85A4F;
 }
 .heading {
     font-size: 38px;
@@ -57,12 +31,12 @@ body {
     max-width: 1000px;
 }
 .princi-msg, .princi-msg .modal-body{
-    background: #ff4c64;
-    color: white;
+    background: #3AAFA9;
+    color: #efefef;
 }
 
 .princi-msg .msg-photo img{
-    box-shadow: -10px 10px 10px #45454545;
+    box-shadow: -5px 5px 20px #555555;
 }
 
 .container-fluid {
@@ -73,25 +47,25 @@ body {
 }
 
 .chairman-msg {
-    box-shadow: 0 5px 5px rgba(70,70,70,0.8);
-    -webkit-box-shadow: 0 -5px 5px rgba(70,70,70,0.8);
-    background: #4c76ff;
+    box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
+    -webkit-box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
+    background: #2B7A78;
     color: white;
 }
 
 .chairman-msg .modal-body {
-    background: #e6a7b9;
+    background: #2B7A78;
     color: white;
 }
 .chairman-msg .msg-photo img{
-    box-shadow: 10px 10px 10px #45454545;
+    box-shadow: 5px 5px 20px #454545;
 }
 
 .tpo-message {
-    background: #ff9a4c;
-    color: white;
-    box-shadow: 0 5px 10px rgba(70,70,70,0.8);
-    -webkit-box-shadow: 0 -5px 10px rgba(70,70,70,0.8);
+    background: #3AAFA9;
+    color: #efe;
+    box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
+    -webkit-box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
 }
 
 .tpo-message .row .col-sm-6:first-child {
@@ -99,14 +73,14 @@ body {
 }
 
 .tpo-message .msg-photo img{
-    box-shadow: 0 0 15px 5px #656565;
+    box-shadow: 0 0 15px 5px #757575;
 }
 
 .company {
-    background: #43ff8e;
-    color: #656565;
-    box-shadow: 0 5px 10px rgba(70,70,70,0.8);
-    -webkit-box-shadow: 0 -5px 10px rgba(70,70,70,0.8);
+    background: #2B7A78;
+    color: white;
+    box-shadow: 0 5px 20px rgba(50,50,50,0.8);
+    -webkit-box-shadow: 0 -5px 20px rgba(50,50,50,0.8);
 }
 
 .company .row {
@@ -114,19 +88,17 @@ body {
 }
 
 .footer-distributed{
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
+    background-color: #E85A4F;
     width: 100%;
     text-align: left;
-    font: normal 16px sans-serif;
-
     padding: 100px 50px;
-    margin-top: 0px;
+    margin-top: 0;
+    box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
+    -webkit-box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
 }
 
-.footer-distributed .footer-left p{
-    color:  #8f9296;
+.footer-distributed .footer-left {
+    color:  white;
     font-size: 14px;
     margin: 0;
 }
@@ -143,13 +115,11 @@ body {
     width: 35px;
     height: 35px;
     background-color:  #33383b;
-    border-radius: 2px;
-
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-
+    border-radius: 10px;
     margin-left: 3px;
 }
 

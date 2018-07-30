@@ -1,0 +1,19 @@
+{
+  "notices" : [
+    {
+      "name": "Form for undertaking for placement",
+      "date": {
+        "day": "27th",
+        "month": "July"
+      },
+      "description": "Form for undertaking placement (description)",
+      "link": "http://www.bvmengineering.ac.in/documents/2_STUDENT_UNDERTAKING_CAMPUS_PLACEMENT_2018_19.pdf"
+    },
+    {
+      "name": "Campus Placement Eligibility",
+      "date": false,
+      "description": "Campus placement Elgibility (description)",
+      "link": "http://www.bvmengineering.ac.in/documents/2_campus%20placement%20eligibility.PDF"
+    }
+  ]
+}

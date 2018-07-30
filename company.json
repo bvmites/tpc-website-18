@@ -1,0 +1,19 @@
+{
+  "companies" : [
+    {
+      "name" : "Tata Consultancy Service pvt. ltd.",
+      "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/1200px-Tata_Consultancy_Services_Logo.svg.png",
+      "url" : "https://www.tcs.com"
+    },
+    {
+      "name" : "Tata Consultancy Service pvt. ltd.",
+      "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/1200px-Tata_Consultancy_Services_Logo.svg.png",
+      "url" : "https://www.tcs.com"
+    },
+    {
+      "name" : "Tata Consultancy Service pvt. ltd.",
+      "imageUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/1200px-Tata_Consultancy_Services_Logo.svg.png",
+      "url" : "https://www.tcs.com"
+    }
+  ]
+}
