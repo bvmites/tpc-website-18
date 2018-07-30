@@ -1,3 +1,9 @@
+/*TODO add modal head & foot color*/
+/*TODO change modal button styles*/
+
+.navbar-dark {
+    background: transparent;
+}
 .navbar-scroll {
     background: #17252A;
     color: white;
