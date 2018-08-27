@@ -10,8 +10,7 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link href="css/notice.css" rel="stylesheet" type="text/css"  media="all" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 <body>
 
@@ -63,11 +62,12 @@
       {{#if date}}
       <div class="date col-sm-2 col-xs-2">
         <div class="day row">
-          <div class="col-sm-12 col-xs-12" align="center">{{date.day}}</div>
+          <div class="col-sm-12" align="center">{{date.day}}</div>
+          <div class="col-sm-12" align="center">{{date.month}}</div>
         </div>
-        <div class="month row">
-          <div class="col-sm-12 col-xs-12" align="center">{{date.month}}</div>
-        </div>
+        <!--<div class="month row">
+
+        </div>-->
       </div>
       <div class="description col-sm-10 col-xs-10">
         <div class="title" align="center"><a href="{{link}}" class="link">{{name}}</a></div>

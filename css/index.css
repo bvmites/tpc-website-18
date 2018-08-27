@@ -22,68 +22,90 @@
     -o-animation: zoom 30s ease 0s normal both infinite;
 }
 
-.modal-btn, .modal-btn:active, .modal-btn:link, .modal-btn:visited{
-    background: #E98074;
-    border: 0;
-    transition: all 0.2s ease-in-out;
-}
-
-.modal-btn:hover {
-    background: #E85A4F;
-}
 .heading {
     font-size: 38px;
     text-transform: uppercase;
     max-width: 1000px;
 }
-.princi-msg, .princi-msg .modal-body{
-    background: #3AAFA9;
-    color: #efefef;
+.princi-msg {
+    background: #344955;
+    color: #fff;
+    box-shadow: 0 0 15px 2.5px #333333;
+    -moz-box-shadow: 0 0 15px 2.5px #333333;
+    z-index: 1;
+    position: relative;
 }
 
+.princi-msg .modal-body {
+    background: #344955;
+    color: #fff;
+}
 .princi-msg .msg-photo img{
-    box-shadow: -5px 5px 20px #555555;
+    box-shadow: -2.5px 2.5px 20px #000;
+}
+
+.princi-msg .modal-btn, .princi-msg .modal-btn:active, .princi-msg .modal-btn:link, .princi-msg .modal-btn:visited  {
+    background-color: #F9AA33;
+    color: black;
+    border-color: transparent;
+}
+
+.princi-msg .modal-btn:hover{
+    background-color: #ff543c;
+    color: white;
 }
 
 .container-fluid {
     padding: 30px;
 }
 .msg {
-    max-width: 1000px;
+    max-width: 800px;
 }
 
 .chairman-msg {
-    box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
-    -webkit-box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
-    background: #2B7A78;
+    background: #F9AA33;
+    color: white;
+    position: relative;
+}
+
+
+.chairman-msg .modal-body {
+    background: #F9AA33;
     color: white;
 }
 
-.chairman-msg .modal-body {
-    background: #2B7A78;
-    color: white;
-}
 .chairman-msg .msg-photo img{
     box-shadow: 5px 5px 20px #454545;
 }
 
+.chairman-msg .modal-btn, .chairman-msg .modal-btn:active, .chairman-msg .modal-btn:link, .chairman-msg .modal-btn:visited {
+    background-color: #344955;
+    color: white;
+}
+
+.chairman-msg .modal-btn:hover {
+    background-color: #232f34;
+}
 .tpo-message {
-    background: #3AAFA9;
-    color: #efe;
-    box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
-    -webkit-box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
+    position: relative;
+    background: #344955;
+    color: #fff;
+    z-index: 1;
+    box-shadow: 0 0 15px 2.5px #333333;
+    -moz-box-shadow: 0 0 15px 2.5px #333333;
 }
 
 .tpo-message .row .col-sm-6:first-child {
-    border-right: 5px solid #777777;
+    border-right: 5px solid #F9AA33;
 }
 
 .tpo-message .msg-photo img{
-    box-shadow: 0 0 15px 5px #757575;
+    box-shadow: 0 0 15px 5px #222222;
 }
 
 .company {
-    background: #2B7A78;
+    position: relative;
+    background: #F9AA33;
     color: white;
     box-shadow: 0 5px 20px rgba(50,50,50,0.8);
     -webkit-box-shadow: 0 -5px 20px rgba(50,50,50,0.8);
@@ -91,42 +113,6 @@
 
 .company .row {
     margin-top: 10px;
-}
-
-.footer-distributed{
-    background-color: #E85A4F;
-    width: 100%;
-    text-align: left;
-    padding: 100px 50px;
-    margin-top: 0;
-    box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
-    -webkit-box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
-}
-
-.footer-distributed .footer-left {
-    color:  white;
-    font-size: 14px;
-    margin: 0;
-}
-
-
-.footer-distributed .footer-right{
-    float: right;
-    margin-top: 6px;
-    max-width: 180px;
-}
-
-.footer-distributed .footer-right a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    background-color:  #33383b;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-    border-radius: 10px;
-    margin-left: 3px;
 }
 
 @keyframes zoom {

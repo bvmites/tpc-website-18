@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
 body {
-    font-family: 'Lato', Arial, sans-serif;
+    font-family: 'Exo', sans-serif;
     color: #6b6b6b;
     font-size: 17px;
     font-weight: bold;
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-dark {
-    background: #17252A;
+    background: #212121;
     color: white;
 }
 
@@ -34,17 +34,19 @@ body {
 }
 
 .footer-distributed{
-    background-color: #E85A4F;
+    background-color: #212121;
     width: 100%;
     text-align: left;
     padding: 100px 50px;
     margin-top: 0;
-    box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
-    -webkit-box-shadow: 0 -5px 20px rgba(70,70,70,0.8);
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 15px 2.5px #333333;
+    -moz-box-shadow: 0 0 15px 2.5px #333333;
 }
 
 .footer-distributed .footer-left {
-    color:  white;
+    color: #F9AA33;
     font-size: 14px;
     margin: 0;
 }
@@ -62,7 +64,7 @@ body {
     height: 35px;
     background-color:  #33383b;
     font-size: 20px;
-    color: #ffffff;
+    color: #F9AA33;
     text-align: center;
     line-height: 35px;
     border-radius: 10px;

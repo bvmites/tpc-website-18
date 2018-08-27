@@ -1,5 +1,5 @@
 body {
-    background: #3AAFA9;
+    background: #F9AA33;
 }
 
 .noticeContainer {
@@ -9,30 +9,31 @@ body {
     max-width: 900px;
     margin-top: 50px;
     border-radius: 10px;
-    font-family: 'Quicksand', sans-serif;
+
 }
 
 .date {
-    background: #2B7A78;
+    background: #344955;
     border-radius: 10px;
     color: white;
-    box-shadow: 0 0 10px 5px #454545;
+    box-shadow: 0 0 10px 2.5px #444444;
     font-weight: bold;
+    z-index: 1;
 }
 
 .date .day {
     /*height: 50%;*/
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .date .month {
-    font-size: 50px;
+    font-size: 25px;
 }
 .description {
-    background: #DEF2F1;
+    background: #232f34;
     border-radius: 10px;
-    color: #17252A;
-    box-shadow: 0 0 15px 5px #454545;
+    color: white;
+    box-shadow: 0 0 10px 2.5px #444444;
     position: relative;
 }
 
@@ -46,7 +47,12 @@ body {
 
 .link, .link:hover {
     text-decoration: none;
-    color: #333333;
+    color: white;
+}
+
+.footer-distributed {
+    position: relative;
+    bottom: 0;
 }
 
 @media screen and (min-width: 578px) and (max-width: 986px) {
